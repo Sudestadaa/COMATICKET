@@ -17,7 +17,7 @@ import com.duoc.comaticket.model.Evento;
 import com.duoc.comaticket.service.EventoService;
 
 @RestController
-@RequestMapping("/api/eventos")
+@RequestMapping("/api/v1/eventos")
 public class EventoController {
 
     private final EventoService eventoService;
