@@ -15,7 +15,7 @@ import com.duoc.comaticket.dto.CompraResponse;
 import com.duoc.comaticket.service.CompraService;
 
 @RestController
-@RequestMapping("/api/compras")
+@RequestMapping("/api/v1/compras")
 public class CompraController {
 
     private final CompraService compraService;
